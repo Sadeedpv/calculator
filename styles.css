@@ -1,70 +1,63 @@
 :root{
-    --bgclr: #32a89e;
-    --clr1: #cc00ad;
-    --clr2: #f5ebf3;
-    --clr3: #0a2611;
-    --clr4: #e1ede5;
-    --clr5: #d9dbda;
-  
-  }
-  *{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-  }
+  --bgclr: #32a89e;
+  --clr1: #cc00ad;
+  --clr2: #f5ebf3;
+  --clr3: #0a2611;
+  --clr4: #e1ede5;
+  --clr5: #d9dbda;
 
-  body{
-    background-color: var(--clr5);
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
-    font-size: 1.3rem;
-    overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--clr5);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  overflow-x: hidden;
 
 
 }
 
 
 section{
-    background-color: transparent;
-    transition: 1s ease-in-out;
-    display: grid;
-    place-items: center;
-    padding: 25px;
-    margin-top: 1.5em;
-    border: 2px solid var(--clr4);
-    opacity: 80%;
-    
-  }
+  background-color: transparent;
+  display: grid;
+  place-items: center;
+  padding: 25px;
+  margin-top: 1.5em;
+  border: 2px solid var(--clr4);
+  opacity: 80%;
+  font-weight: 900 !important;
+  
+}
 
-  section:hover{
-    background-color: var(--clr4);
-    color: black;
-    transition: 1s ease-in-out;
-  }
-
-    
+  
 .input{
-    text-align: center;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    height: 12rem;
-    font-size: xx-large;  
-  }
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  height: 12rem;
+  font-size: xx-large;  
+}
 
-  button{
-    border: 0;
-    font-size: x-large;
-    height: 6rem;
-    width: 17vw;
-  }
-  
-  button:hover{
-    background-color: var(--clr5);
-  }
-  
-  #clear{
-    height:fit-content; 
-    width:fit-content;
-  }
+button{
+  border: 0;
+  font-size: x-large;
+  height: 6rem;
+  width: 12vw;
+  border-radius: 3px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+}
+
+
+#clear{
+  height:fit-content; 
+  width:fit-content;
+}
